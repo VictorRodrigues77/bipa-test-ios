@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC37CC112C2778E5007BFA83 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC102C2778E5007BFA83 /* Endpoint.swift */; };
+		AC37CC142C27790D007BFA83 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC132C27790D007BFA83 /* HTTPError.swift */; };
+		AC37CC162C277933007BFA83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC152C277933007BFA83 /* HTTPMethod.swift */; };
+		AC37CC1A2C2779DA007BFA83 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC192C2779DA007BFA83 /* Node.swift */; };
+		AC37CC1C2C277CC0007BFA83 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC1B2C277CC0007BFA83 /* HTTPClient.swift */; };
+		AC37CC202C277D74007BFA83 /* TopRankingEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC1F2C277D74007BFA83 /* TopRankingEndpoint.swift */; };
+		AC37CC222C277E4A007BFA83 /* TopRankingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC212C277E4A007BFA83 /* TopRankingService.swift */; };
+		AC37CC242C278084007BFA83 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC232C278084007BFA83 /* TestViewController.swift */; };
 		AC7AB6612C27717700EB78C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AB6602C27717700EB78C8 /* AppDelegate.swift */; };
 		AC7AB6632C27717700EB78C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AB6622C27717700EB78C8 /* SceneDelegate.swift */; };
-		AC7AB6652C27717700EB78C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AB6642C27717700EB78C8 /* ViewController.swift */; };
-		AC7AB6682C27717700EB78C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7AB6662C27717700EB78C8 /* Main.storyboard */; };
 		AC7AB66A2C27717900EB78C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7AB6692C27717900EB78C8 /* Assets.xcassets */; };
 		AC7AB66D2C27717900EB78C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7AB66B2C27717900EB78C8 /* LaunchScreen.storyboard */; };
 		AC7AB6782C27717900EB78C8 /* bipa_test_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AB6772C27717900EB78C8 /* bipa_test_iosTests.swift */; };
@@ -36,11 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC37CC102C2778E5007BFA83 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		AC37CC132C27790D007BFA83 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		AC37CC152C277933007BFA83 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		AC37CC192C2779DA007BFA83 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AC37CC1B2C277CC0007BFA83 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		AC37CC1F2C277D74007BFA83 /* TopRankingEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingEndpoint.swift; sourceTree = "<group>"; };
+		AC37CC212C277E4A007BFA83 /* TopRankingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingService.swift; sourceTree = "<group>"; };
+		AC37CC232C278084007BFA83 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		AC7AB65D2C27717700EB78C8 /* bipa-test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bipa-test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7AB6602C27717700EB78C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7AB6622C27717700EB78C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC7AB6642C27717700EB78C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC7AB6672C27717700EB78C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC7AB6692C27717900EB78C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7AB66C2C27717900EB78C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7AB66E2C27717900EB78C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +88,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC37CC0F2C2778CF007BFA83 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AC37CC1E2C277D4B007BFA83 /* Service */,
+				AC37CC1D2C277D43007BFA83 /* Endpoints */,
+				AC37CC182C2779AD007BFA83 /* Models */,
+				AC37CC172C27799A007BFA83 /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AC37CC172C27799A007BFA83 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AC37CC102C2778E5007BFA83 /* Endpoint.swift */,
+				AC37CC152C277933007BFA83 /* HTTPMethod.swift */,
+				AC37CC132C27790D007BFA83 /* HTTPError.swift */,
+				AC37CC1B2C277CC0007BFA83 /* HTTPClient.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AC37CC182C2779AD007BFA83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC37CC192C2779DA007BFA83 /* Node.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC37CC1D2C277D43007BFA83 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				AC37CC1F2C277D74007BFA83 /* TopRankingEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		AC37CC1E2C277D4B007BFA83 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AC37CC212C277E4A007BFA83 /* TopRankingService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		AC7AB6542C27717700EB78C8 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +157,10 @@
 		AC7AB65F2C27717700EB78C8 /* bipa-test-ios */ = {
 			isa = PBXGroup;
 			children = (
+				AC37CC0F2C2778CF007BFA83 /* Network */,
 				AC7AB6602C27717700EB78C8 /* AppDelegate.swift */,
 				AC7AB6622C27717700EB78C8 /* SceneDelegate.swift */,
-				AC7AB6642C27717700EB78C8 /* ViewController.swift */,
-				AC7AB6662C27717700EB78C8 /* Main.storyboard */,
+				AC37CC232C278084007BFA83 /* TestViewController.swift */,
 				AC7AB6692C27717900EB78C8 /* Assets.xcassets */,
 				AC7AB66B2C27717900EB78C8 /* LaunchScreen.storyboard */,
 				AC7AB66E2C27717900EB78C8 /* Info.plist */,
@@ -233,7 +291,6 @@
 			files = (
 				AC7AB66D2C27717900EB78C8 /* LaunchScreen.storyboard in Resources */,
 				AC7AB66A2C27717900EB78C8 /* Assets.xcassets in Resources */,
-				AC7AB6682C27717700EB78C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +315,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7AB6652C27717700EB78C8 /* ViewController.swift in Sources */,
+				AC37CC242C278084007BFA83 /* TestViewController.swift in Sources */,
 				AC7AB6612C27717700EB78C8 /* AppDelegate.swift in Sources */,
+				AC37CC202C277D74007BFA83 /* TopRankingEndpoint.swift in Sources */,
+				AC37CC1C2C277CC0007BFA83 /* HTTPClient.swift in Sources */,
+				AC37CC112C2778E5007BFA83 /* Endpoint.swift in Sources */,
+				AC37CC142C27790D007BFA83 /* HTTPError.swift in Sources */,
+				AC37CC162C277933007BFA83 /* HTTPMethod.swift in Sources */,
 				AC7AB6632C27717700EB78C8 /* SceneDelegate.swift in Sources */,
+				AC37CC222C277E4A007BFA83 /* TopRankingService.swift in Sources */,
+				AC37CC1A2C2779DA007BFA83 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC7AB6662C27717700EB78C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC7AB6672C27717700EB78C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC7AB66B2C27717900EB78C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +497,7 @@
 				INFOPLIST_FILE = "bipa-test-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -470,7 +526,7 @@
 				INFOPLIST_FILE = "bipa-test-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

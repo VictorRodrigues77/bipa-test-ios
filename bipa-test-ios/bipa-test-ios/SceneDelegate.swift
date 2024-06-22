@@ -10,17 +10,22 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
-
+    var coordinator: Coordinator?
+        
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-                
-        let viewController = TestViewController(service: TopRankingServiceImplementation())
-                
-        let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = viewController
-        self.window = window
-        window.makeKeyAndVisible()
+        let windowScene = UIWindowScene(session: session, connectionOptions: connectionOptions)
+            
+        self.window = UIWindow(windowScene: windowScene)
+            
+        let topRankingFactory = TopRankingFactory()
+        let initialCoordinator = topRankingFactory.makeInitialCoordinator()
+            
+        let rootNC = UINavigationController()
+            
+        initialCoordinator.start(rootNC)
+            
+        self.window?.rootViewController = rootNC
+        self.window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

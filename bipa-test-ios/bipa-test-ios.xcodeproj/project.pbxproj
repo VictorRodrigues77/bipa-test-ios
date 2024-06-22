@@ -10,6 +10,14 @@
 		AC1C0AE32C2789FD002720FC /* TopRankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */; };
 		AC1C0AE52C278A08002720FC /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AE42C278A08002720FC /* Mockable.swift */; };
 		AC1C0AEC2C278BF9002720FC /* top_ranking_nodes.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */; };
+		AC1C0AF22C279177002720FC /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AF12C279177002720FC /* CoordinatorProtocol.swift */; };
+		AC1C0AF42C2791BF002720FC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AF32C2791BF002720FC /* Coordinator.swift */; };
+		AC1C0AF62C2791D3002720FC /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AF52C2791D3002720FC /* BaseCoordinator.swift */; };
+		AC1C0AFD2C2792E4002720FC /* TopRankingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AFC2C2792E4002720FC /* TopRankingModel.swift */; };
+		AC1C0AFF2C2792EE002720FC /* TopRankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AFE2C2792EE002720FC /* TopRankingView.swift */; };
+		AC1C0B012C2792FF002720FC /* TopRankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0B002C2792FF002720FC /* TopRankingViewModel.swift */; };
+		AC1C0B032C279307002720FC /* TopRankingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0B022C279307002720FC /* TopRankingController.swift */; };
+		AC1C0B062C2794AE002720FC /* TopRankingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0B052C2794AE002720FC /* TopRankingFactory.swift */; };
 		AC37CC112C2778E5007BFA83 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC102C2778E5007BFA83 /* Endpoint.swift */; };
 		AC37CC142C27790D007BFA83 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC132C27790D007BFA83 /* HTTPError.swift */; };
 		AC37CC162C277933007BFA83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC152C277933007BFA83 /* HTTPMethod.swift */; };
@@ -17,7 +25,6 @@
 		AC37CC1C2C277CC0007BFA83 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC1B2C277CC0007BFA83 /* HTTPClient.swift */; };
 		AC37CC202C277D74007BFA83 /* TopRankingEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC1F2C277D74007BFA83 /* TopRankingEndpoint.swift */; };
 		AC37CC222C277E4A007BFA83 /* TopRankingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC212C277E4A007BFA83 /* TopRankingService.swift */; };
-		AC37CC242C278084007BFA83 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC232C278084007BFA83 /* TestViewController.swift */; };
 		AC7AB6612C27717700EB78C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AB6602C27717700EB78C8 /* AppDelegate.swift */; };
 		AC7AB6632C27717700EB78C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7AB6622C27717700EB78C8 /* SceneDelegate.swift */; };
 		AC7AB66A2C27717900EB78C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7AB6692C27717900EB78C8 /* Assets.xcassets */; };
@@ -48,6 +55,14 @@
 		AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingTests.swift; sourceTree = "<group>"; };
 		AC1C0AE42C278A08002720FC /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
 		AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top_ranking_nodes.json; sourceTree = "<group>"; };
+		AC1C0AF12C279177002720FC /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		AC1C0AF32C2791BF002720FC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AC1C0AF52C2791D3002720FC /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		AC1C0AFC2C2792E4002720FC /* TopRankingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingModel.swift; sourceTree = "<group>"; };
+		AC1C0AFE2C2792EE002720FC /* TopRankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingView.swift; sourceTree = "<group>"; };
+		AC1C0B002C2792FF002720FC /* TopRankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingViewModel.swift; sourceTree = "<group>"; };
+		AC1C0B022C279307002720FC /* TopRankingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingController.swift; sourceTree = "<group>"; };
+		AC1C0B052C2794AE002720FC /* TopRankingFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingFactory.swift; sourceTree = "<group>"; };
 		AC37CC102C2778E5007BFA83 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		AC37CC132C27790D007BFA83 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
 		AC37CC152C277933007BFA83 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
@@ -55,7 +70,6 @@
 		AC37CC1B2C277CC0007BFA83 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		AC37CC1F2C277D74007BFA83 /* TopRankingEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingEndpoint.swift; sourceTree = "<group>"; };
 		AC37CC212C277E4A007BFA83 /* TopRankingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingService.swift; sourceTree = "<group>"; };
-		AC37CC232C278084007BFA83 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		AC7AB65D2C27717700EB78C8 /* bipa-test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bipa-test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7AB6602C27717700EB78C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7AB6622C27717700EB78C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +130,51 @@
 			children = (
 				AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */,
 				AC1C0AE62C278A34002720FC /* JSON */,
+			);
+			path = TopRanking;
+			sourceTree = "<group>";
+		};
+		AC1C0AEF2C27913F002720FC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C0AF32C2791BF002720FC /* Coordinator.swift */,
+				AC1C0AF52C2791D3002720FC /* BaseCoordinator.swift */,
+				AC1C0AF02C279166002720FC /* Protocol */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AC1C0AF02C279166002720FC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C0AF12C279177002720FC /* CoordinatorProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		AC1C0AF72C279241002720FC /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C0B052C2794AE002720FC /* TopRankingFactory.swift */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		AC1C0AFA2C2792C8002720FC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C0AFB2C2792D0002720FC /* TopRanking */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AC1C0AFB2C2792D0002720FC /* TopRanking */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C0AFC2C2792E4002720FC /* TopRankingModel.swift */,
+				AC1C0AFE2C2792EE002720FC /* TopRankingView.swift */,
+				AC1C0B002C2792FF002720FC /* TopRankingViewModel.swift */,
+				AC1C0B022C279307002720FC /* TopRankingController.swift */,
 			);
 			path = TopRanking;
 			sourceTree = "<group>";
@@ -189,10 +248,12 @@
 		AC7AB65F2C27717700EB78C8 /* bipa-test-ios */ = {
 			isa = PBXGroup;
 			children = (
+				AC1C0AFA2C2792C8002720FC /* Features */,
+				AC1C0AF72C279241002720FC /* Patterns */,
+				AC1C0AEF2C27913F002720FC /* Coordinator */,
 				AC37CC0F2C2778CF007BFA83 /* Network */,
 				AC7AB6602C27717700EB78C8 /* AppDelegate.swift */,
 				AC7AB6622C27717700EB78C8 /* SceneDelegate.swift */,
-				AC37CC232C278084007BFA83 /* TestViewController.swift */,
 				AC7AB6692C27717900EB78C8 /* Assets.xcassets */,
 				AC7AB66B2C27717900EB78C8 /* LaunchScreen.storyboard */,
 				AC7AB66E2C27717900EB78C8 /* Info.plist */,
@@ -349,13 +410,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC37CC242C278084007BFA83 /* TestViewController.swift in Sources */,
 				AC7AB6612C27717700EB78C8 /* AppDelegate.swift in Sources */,
+				AC1C0B032C279307002720FC /* TopRankingController.swift in Sources */,
+				AC1C0AF62C2791D3002720FC /* BaseCoordinator.swift in Sources */,
 				AC37CC202C277D74007BFA83 /* TopRankingEndpoint.swift in Sources */,
 				AC37CC1C2C277CC0007BFA83 /* HTTPClient.swift in Sources */,
 				AC37CC112C2778E5007BFA83 /* Endpoint.swift in Sources */,
+				AC1C0AFF2C2792EE002720FC /* TopRankingView.swift in Sources */,
+				AC1C0B062C2794AE002720FC /* TopRankingFactory.swift in Sources */,
 				AC37CC142C27790D007BFA83 /* HTTPError.swift in Sources */,
+				AC1C0AFD2C2792E4002720FC /* TopRankingModel.swift in Sources */,
+				AC1C0AF22C279177002720FC /* CoordinatorProtocol.swift in Sources */,
 				AC37CC162C277933007BFA83 /* HTTPMethod.swift in Sources */,
+				AC1C0B012C2792FF002720FC /* TopRankingViewModel.swift in Sources */,
+				AC1C0AF42C2791BF002720FC /* Coordinator.swift in Sources */,
 				AC7AB6632C27717700EB78C8 /* SceneDelegate.swift in Sources */,
 				AC37CC222C277E4A007BFA83 /* TopRankingService.swift in Sources */,
 				AC37CC1A2C2779DA007BFA83 /* Node.swift in Sources */,

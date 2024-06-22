@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1C0AE32C2789FD002720FC /* TopRankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */; };
+		AC1C0AE52C278A08002720FC /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AE42C278A08002720FC /* Mockable.swift */; };
+		AC1C0AEC2C278BF9002720FC /* top_ranking_nodes.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */; };
 		AC37CC112C2778E5007BFA83 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC102C2778E5007BFA83 /* Endpoint.swift */; };
 		AC37CC142C27790D007BFA83 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC132C27790D007BFA83 /* HTTPError.swift */; };
 		AC37CC162C277933007BFA83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC152C277933007BFA83 /* HTTPMethod.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingTests.swift; sourceTree = "<group>"; };
+		AC1C0AE42C278A08002720FC /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
+		AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top_ranking_nodes.json; sourceTree = "<group>"; };
 		AC37CC102C2778E5007BFA83 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		AC37CC132C27790D007BFA83 /* HTTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
 		AC37CC152C277933007BFA83 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
@@ -88,6 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC1C0AE12C2789A2002720FC /* NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C0AE42C278A08002720FC /* Mockable.swift */,
+				AC1C0AE72C278AB9002720FC /* TopRanking */,
+			);
+			path = NetworkTests;
+			sourceTree = "<group>";
+		};
+		AC1C0AE62C278A34002720FC /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		AC1C0AE72C278AB9002720FC /* TopRanking */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */,
+				AC1C0AE62C278A34002720FC /* JSON */,
+			);
+			path = TopRanking;
+			sourceTree = "<group>";
+		};
 		AC37CC0F2C2778CF007BFA83 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +203,7 @@
 		AC7AB6762C27717900EB78C8 /* bipa-test-iosTests */ = {
 			isa = PBXGroup;
 			children = (
+				AC1C0AE12C2789A2002720FC /* NetworkTests */,
 				AC7AB6772C27717900EB78C8 /* bipa_test_iosTests.swift */,
 			);
 			path = "bipa-test-iosTests";
@@ -298,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1C0AEC2C278BF9002720FC /* top_ranking_nodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +367,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7AB6782C27717900EB78C8 /* bipa_test_iosTests.swift in Sources */,
+				AC1C0AE52C278A08002720FC /* Mockable.swift in Sources */,
+				AC1C0AE32C2789FD002720FC /* TopRankingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

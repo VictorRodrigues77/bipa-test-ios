@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0044852C28C8D800303349 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0044842C28C8D800303349 /* BaseController.swift */; };
+		AC0044882C28CB2F00303349 /* TopRankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0044872C28CB2F00303349 /* TopRankingCell.swift */; };
 		AC1C0AE32C2789FD002720FC /* TopRankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */; };
 		AC1C0AE52C278A08002720FC /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AE42C278A08002720FC /* Mockable.swift */; };
 		AC1C0AEC2C278BF9002720FC /* top_ranking_nodes.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */; };
@@ -14,7 +16,6 @@
 		AC1C0AF42C2791BF002720FC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AF32C2791BF002720FC /* Coordinator.swift */; };
 		AC1C0AF62C2791D3002720FC /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AF52C2791D3002720FC /* BaseCoordinator.swift */; };
 		AC1C0AFD2C2792E4002720FC /* TopRankingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AFC2C2792E4002720FC /* TopRankingModel.swift */; };
-		AC1C0AFF2C2792EE002720FC /* TopRankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AFE2C2792EE002720FC /* TopRankingView.swift */; };
 		AC1C0B012C2792FF002720FC /* TopRankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0B002C2792FF002720FC /* TopRankingViewModel.swift */; };
 		AC1C0B032C279307002720FC /* TopRankingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0B022C279307002720FC /* TopRankingController.swift */; };
 		AC1C0B062C2794AE002720FC /* TopRankingFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0B052C2794AE002720FC /* TopRankingFactory.swift */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC0044842C28C8D800303349 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		AC0044872C28CB2F00303349 /* TopRankingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingCell.swift; sourceTree = "<group>"; };
 		AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingTests.swift; sourceTree = "<group>"; };
 		AC1C0AE42C278A08002720FC /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
 		AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top_ranking_nodes.json; sourceTree = "<group>"; };
@@ -59,7 +62,6 @@
 		AC1C0AF32C2791BF002720FC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		AC1C0AF52C2791D3002720FC /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		AC1C0AFC2C2792E4002720FC /* TopRankingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingModel.swift; sourceTree = "<group>"; };
-		AC1C0AFE2C2792EE002720FC /* TopRankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingView.swift; sourceTree = "<group>"; };
 		AC1C0B002C2792FF002720FC /* TopRankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingViewModel.swift; sourceTree = "<group>"; };
 		AC1C0B022C279307002720FC /* TopRankingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingController.swift; sourceTree = "<group>"; };
 		AC1C0B052C2794AE002720FC /* TopRankingFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingFactory.swift; sourceTree = "<group>"; };
@@ -108,6 +110,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC0044832C28C8CC00303349 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AC0044842C28C8D800303349 /* BaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AC0044862C28CB1E00303349 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AC0044872C28CB2F00303349 /* TopRankingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		AC1C0AE12C2789A2002720FC /* NetworkTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,9 +190,9 @@
 			isa = PBXGroup;
 			children = (
 				AC1C0AFC2C2792E4002720FC /* TopRankingModel.swift */,
-				AC1C0AFE2C2792EE002720FC /* TopRankingView.swift */,
 				AC1C0B002C2792FF002720FC /* TopRankingViewModel.swift */,
 				AC1C0B022C279307002720FC /* TopRankingController.swift */,
+				AC0044862C28CB1E00303349 /* Cell */,
 			);
 			path = TopRanking;
 			sourceTree = "<group>";
@@ -248,6 +266,7 @@
 		AC7AB65F2C27717700EB78C8 /* bipa-test-ios */ = {
 			isa = PBXGroup;
 			children = (
+				AC0044832C28C8CC00303349 /* Base */,
 				AC1C0AFA2C2792C8002720FC /* Features */,
 				AC1C0AF72C279241002720FC /* Patterns */,
 				AC1C0AEF2C27913F002720FC /* Coordinator */,
@@ -413,13 +432,14 @@
 				AC7AB6612C27717700EB78C8 /* AppDelegate.swift in Sources */,
 				AC1C0B032C279307002720FC /* TopRankingController.swift in Sources */,
 				AC1C0AF62C2791D3002720FC /* BaseCoordinator.swift in Sources */,
+				AC0044882C28CB2F00303349 /* TopRankingCell.swift in Sources */,
 				AC37CC202C277D74007BFA83 /* TopRankingEndpoint.swift in Sources */,
 				AC37CC1C2C277CC0007BFA83 /* HTTPClient.swift in Sources */,
 				AC37CC112C2778E5007BFA83 /* Endpoint.swift in Sources */,
-				AC1C0AFF2C2792EE002720FC /* TopRankingView.swift in Sources */,
 				AC1C0B062C2794AE002720FC /* TopRankingFactory.swift in Sources */,
 				AC37CC142C27790D007BFA83 /* HTTPError.swift in Sources */,
 				AC1C0AFD2C2792E4002720FC /* TopRankingModel.swift in Sources */,
+				AC0044852C28C8D800303349 /* BaseController.swift in Sources */,
 				AC1C0AF22C279177002720FC /* CoordinatorProtocol.swift in Sources */,
 				AC37CC162C277933007BFA83 /* HTTPMethod.swift in Sources */,
 				AC1C0B012C2792FF002720FC /* TopRankingViewModel.swift in Sources */,

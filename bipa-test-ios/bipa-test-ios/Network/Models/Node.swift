@@ -48,5 +48,4 @@ struct Node: Codable {
             case zhCN = "zh-CN"
         }
     }
-
 }

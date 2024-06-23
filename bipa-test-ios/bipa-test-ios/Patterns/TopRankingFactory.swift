@@ -8,13 +8,13 @@
 import Foundation
 
 protocol TopRankingFactoryProtocol: AnyObject {
-    var network: HTTPClient { get }
+    var network: TopRankingService { get }
     func makeController(coordinator: Coordinator) -> TopRankingController
     func makeViewModel(coordinator: CoordinatorProtocol) -> TopRankingViewModel
 }
 
 class TopRankingFactory: TopRankingFactoryProtocol {
-    var network: HTTPClient = TopRankingServiceImplementation()
+    var network: TopRankingService = TopRankingServiceImplementation()
     
     func makeController(coordinator: Coordinator) -> TopRankingController {
         let viewModel = makeViewModel(coordinator: coordinator)

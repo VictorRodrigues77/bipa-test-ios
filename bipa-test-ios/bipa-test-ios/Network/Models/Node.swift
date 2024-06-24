@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Node: Codable {
+struct Node: Codable, Equatable {
     let publicKey, alias: String
     let channels, capacity, firstSeen, updatedAt: Int
     let city: City?
@@ -47,5 +47,9 @@ struct Node: Codable {
             case ru
             case zhCN = "zh-CN"
         }
+    }
+    
+    static func == (lhs: Node, rhs: Node) -> Bool {
+        return lhs.publicKey == rhs.publicKey
     }
 }

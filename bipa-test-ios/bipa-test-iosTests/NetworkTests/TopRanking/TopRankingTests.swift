@@ -10,7 +10,7 @@ import XCTest
 
 class TopRankingTests: XCTestCase {
 
-    func testTopRankingSServiceMock() async {
+    func testTopRankingServiceMock() async {
         let serviceMock = TopRankingMock()
         let failingResult = await serviceMock.getListOfNodes()
         

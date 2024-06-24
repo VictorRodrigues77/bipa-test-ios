@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AC0044852C28C8D800303349 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0044842C28C8D800303349 /* BaseController.swift */; };
 		AC0044882C28CB2F00303349 /* TopRankingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0044872C28CB2F00303349 /* TopRankingCell.swift */; };
+		AC00448F2C29027400303349 /* TopRankingModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC00448E2C29027400303349 /* TopRankingModelTests.swift */; };
+		AC0044922C29035D00303349 /* TopRankingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0044912C29035D00303349 /* TopRankingViewModelTests.swift */; };
 		AC1C0AE32C2789FD002720FC /* TopRankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */; };
 		AC1C0AE52C278A08002720FC /* Mockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C0AE42C278A08002720FC /* Mockable.swift */; };
 		AC1C0AEC2C278BF9002720FC /* top_ranking_nodes.json in Resources */ = {isa = PBXBuildFile; fileRef = AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */; };
@@ -55,6 +57,8 @@
 /* Begin PBXFileReference section */
 		AC0044842C28C8D800303349 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		AC0044872C28CB2F00303349 /* TopRankingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingCell.swift; sourceTree = "<group>"; };
+		AC00448E2C29027400303349 /* TopRankingModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingModelTests.swift; sourceTree = "<group>"; };
+		AC0044912C29035D00303349 /* TopRankingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingViewModelTests.swift; sourceTree = "<group>"; };
 		AC1C0AE22C2789FD002720FC /* TopRankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRankingTests.swift; sourceTree = "<group>"; };
 		AC1C0AE42C278A08002720FC /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
 		AC1C0AEB2C278BF9002720FC /* top_ranking_nodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = top_ranking_nodes.json; sourceTree = "<group>"; };
@@ -124,6 +128,22 @@
 				AC0044872C28CB2F00303349 /* TopRankingCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		AC0044892C28FA3800303349 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC00448E2C29027400303349 /* TopRankingModelTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		AC0044902C29034000303349 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0044912C29035D00303349 /* TopRankingViewModelTests.swift */,
+			);
+			path = ViewModelTests;
 			sourceTree = "<group>";
 		};
 		AC1C0AE12C2789A2002720FC /* NetworkTests */ = {
@@ -283,6 +303,8 @@
 		AC7AB6762C27717900EB78C8 /* bipa-test-iosTests */ = {
 			isa = PBXGroup;
 			children = (
+				AC0044902C29034000303349 /* ViewModelTests */,
+				AC0044892C28FA3800303349 /* ModelTests */,
 				AC1C0AE12C2789A2002720FC /* NetworkTests */,
 				AC7AB6772C27717900EB78C8 /* bipa_test_iosTests.swift */,
 			);
@@ -454,8 +476,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC0044922C29035D00303349 /* TopRankingViewModelTests.swift in Sources */,
 				AC7AB6782C27717900EB78C8 /* bipa_test_iosTests.swift in Sources */,
 				AC1C0AE52C278A08002720FC /* Mockable.swift in Sources */,
+				AC00448F2C29027400303349 /* TopRankingModelTests.swift in Sources */,
 				AC1C0AE32C2789FD002720FC /* TopRankingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

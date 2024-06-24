@@ -15,7 +15,7 @@ protocol TopRankingViewModelProtocol: AnyObject {
 final class TopRankingViewModel: TopRankingViewModelProtocol {
     
     private var network: TopRankingService?
-    private var nodes: [Node]?
+    var nodes: [Node]?
     
     var onShowLoading: (() -> Void)?
     var onHideLoading: (() -> Void)?

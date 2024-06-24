@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TopRankingModel {
+struct TopRankingModel: Equatable {
     let publicKey: String
     let alias: String
     let channels: String
@@ -48,5 +48,9 @@ struct TopRankingModel {
                 self.country = "Country: ???"
             }
         }
+    }
+    
+    static func == (lhs: TopRankingModel, rhs: TopRankingModel) -> Bool {
+        return lhs.publicKey == rhs.publicKey
     }
 }
